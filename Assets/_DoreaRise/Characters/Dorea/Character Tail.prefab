@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3420705024311727103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8175657319032720330}
+  - component: {fileID: 837017054023722356}
+  - component: {fileID: 6157908997846744694}
+  m_Layer: 0
+  m_Name: Character Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8175657319032720330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420705024311727103}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.1669996, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &837017054023722356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420705024311727103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8ec70120eb95145b6456e31b3acac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Dorea.CharacterTailComponent.Runtime::Dorea.CharacterTailComponent.CharacterTail
+  rootBone: {fileID: 0}
+  controlPoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0.0089588165, z: -0.16337794}
+  - {x: 0, y: -0.036580563, z: -0.3203333}
+  - {x: 0, y: -0.21042073, z: -0.35446274}
+  - {x: 0, y: -0.38292378, z: -0.27456406}
+  - {x: 0, y: -0.56954896, z: -0.2684965}
+  - {x: 0, y: -0.7344883, z: -0.41318792}
+  - {x: 0, y: -0.81580484, z: -0.6156771}
+  - {x: 0.00067639357, y: -0.80286354, z: -0.8606533}
+  - {x: 0, y: -0.6647916, z: -1.0532806}
+  weightThreshold: 0.607
+  isJiggle: 0
+  jiggleStiffness: 1
+  jiggleDamping: 1
+  isWagging: 1
+  waggingAxis: {x: 1, y: 0, z: 0}
+  waggingSpeed: 2.5
+  waggingAmplitude: 0.2
+  waggingFrequency: 1
+  showGizmos: 1
+  splineColor: {r: 0, g: 1, b: 0, a: 1}
+  boneColor: {r: 0, g: 1, b: 1, a: 1}
+  controlPointColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  bones:
+  - transform: {fileID: 0}
+    localOffset: {x: 0, y: 0, z: 0}
+    localRotation: {x: -0.0030235946, y: -0.70710003, z: 0.0030231476, w: 0.7071007}
+    length: 0
+    weight: 1
+    simulatedPosition: {x: -2.781901e-15, y: 1.1766772, z: 0.00000011920929}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: 0.0000000015588751, y: 0.0024412428, z: 3.637979e-12}
+    localRotation: {x: 0.0000006363261, y: -0.00000056624407, z: 0.30546242, w: 0.9522042}
+    length: 0.2441244
+    weight: 0.9465047
+    simulatedPosition: {x: 0.000000078251254, y: 1.1751494, z: -0.17865814}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: -0.0000000016880222, y: 0.0013746837, z: 3.2035707e-11}
+    localRotation: {x: -0.0000010864409, y: 0.0000016476388, z: 0.53848535, w: 0.84263486}
+    length: 0.13746853
+    weight: 0.91638106
+    simulatedPosition: {x: 0.00000010647055, y: 1.1422807, z: -0.28848383}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: -9.313226e-10, y: 0.0018820779, z: 3.8698156e-11}
+    localRotation: {x: -0.00000016999392, y: 0.0000011012089, z: 0.19605261, w: 0.98059344}
+    length: 0.18820763
+    weight: 0.8751389
+    simulatedPosition: {x: 0.000000059897474, y: 0.98527795, z: -0.33373496}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: 4.656613e-10, y: 0.0014926813, z: -3.9028802e-10}
+    localRotation: {x: 0.0000011175515, y: 0.00000035638385, z: -0.28316543, w: 0.95907104}
+    length: 0.14926817
+    weight: 0.8424295
+    simulatedPosition: {x: -0.000000011851322, y: 0.8558145, z: -0.28291923}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: -2.3283064e-10, y: 0.0020354765, z: -4.872991e-12}
+    localRotation: {x: 0.0000019747613, y: -0.0000015684197, z: -0.3957747, w: 0.91834766}
+    length: 0.20354752
+    weight: 0.7978259
+    simulatedPosition: {x: -0.00000010639609, y: 0.6687695, z: -0.2335948}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: -4.0745363e-10, y: 0.0018879778, z: 2.043381e-10}
+    localRotation: {x: 0.00014153036, y: -0.000020353042, z: -0.15106578, w: 0.9885237}
+    length: 0.18879768
+    weight: 0.7564544
+    simulatedPosition: {x: -0.0000001438225, y: 0.49844882, z: -0.31730026}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: 3.4924597e-10, y: 0.002200672, z: 7.088374e-11}
+    localRotation: {x: -0.0015861412, y: 0.00011696893, z: -0.25254545, w: 0.9675838}
+    length: 0.22006711
+    weight: 0.70823085
+    simulatedPosition: {x: -0.000050143113, y: 0.3704561, z: -0.52320117}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: 0.0000000026775524, y: 0.002413072, z: -8.708412e-10}
+    localRotation: {x: 0.0022796676, y: -0.00041594313, z: -0.2630213, w: 0.96478724}
+    length: 0.24130711
+    weight: 0.6553529
+    simulatedPosition: {x: 0.00065816, y: 0.36015168, z: -0.81348985}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  - transform: {fileID: 0}
+    localOffset: {x: -0.0000000016298145, y: 0.0022065702, z: -3.0559022e-10}
+    localRotation: {x: 0, y: -0, z: -0, w: 1}
+    length: 0.22065708
+    weight: 0.607
+    simulatedPosition: {x: 0.00000012875535, y: 0.5054474, z: -1.0303876}
+    velocity: {x: 0, y: 0, z: 0}
+    animatedPosition: {x: 0, y: 0, z: 0}
+    animatedRotation: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6157908997846744694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420705024311727103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d28cab292987894b9d20839f5c231da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dorea.CharacterTailComponent.TailShapeBlender
+  targetTail: {fileID: 0}
+  characterControl: {fileID: 0}
+  blendSpeed: 8
+  idleWalkShape: []
+  sprintShape: []
+  brakeShape: []

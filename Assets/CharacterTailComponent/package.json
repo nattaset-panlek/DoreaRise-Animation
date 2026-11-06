@@ -1,0 +1,17 @@
+{
+    "name": "com.dorea.character-tail-component",
+    "version": "1.0.0",
+    "displayName": "Character Tail Component",
+    "description": "A physics-based tail simulation system with Catmull-Rom spline control points and interactive Scene View handles for shaping character tails.",
+    "unity": "2022.3",
+    "author": {
+        "name": "Dorea"
+    },
+    "keywords": [
+        "tail",
+        "physics",
+        "spline",
+        "character",
+        "simulation"
+    ]
+}

@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8a19844794a642a9796145e9a21f6, type: 3}
+  m_Name: Dorea_PoseCorrections
+  m_EditorClassIdentifier: Assembly-CSharp::DoreaRise.Locomotion.PoseCorrectionSet
+  clips:
+  - clip: {fileID: -623603649343465320, guid: 7e1c12ec9f43e454da04561d4c34ebeb, type: 3}
+    tracks:
+    - bone: Upper_arm.L
+      keys:
+      - time: 0
+        rotation: {x: 0.48388198, y: 0.0998677, z: -0.47537717, w: 0.72794324}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.17391305
+        rotation: {x: 0.17137264, y: 0.066294715, z: 0.482111, w: -0.8566244}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.39130434
+        rotation: {x: -0.63171047, y: -0.16723861, z: -0.7381816, w: 0.16751528}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.6304348
+        rotation: {x: 0.11803471, y: -0.13994853, z: -0.5160786, w: 0.83674663}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.73913044
+        rotation: {x: 0.0894588, y: -0.0023644413, z: -0.38378808, w: 0.9190747}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.76086956
+        rotation: {x: 0.13180844, y: 0.09278827, z: -0.33750382, w: 0.92742014}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.7826087
+        rotation: {x: 0.39452624, y: 0.10602851, z: 0.54273975, w: 0.73385334}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.8043478
+        rotation: {x: 0.33383253, y: 0.15436853, z: 0.44809574, w: 0.814823}
+        position: {x: 0, y: 0, z: 0}
+      - time: 1
+        rotation: {x: -0.14850497, y: 0.8555352, z: 0.09569961, w: 0.48666975}
+        position: {x: 0, y: 0, z: 0}
+    - bone: Forearm.L
+      keys:
+      - time: 0
+        rotation: {x: -0.1409765, y: -0.1929759, z: 0.55224997, w: 0.79869026}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.17391305
+        rotation: {x: 0.10033098, y: 0.49130476, z: -0.41273496, w: 0.7603968}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.39130434
+        rotation: {x: 0.29677695, y: 0.5193186, z: -0.27930075, w: 0.75114775}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.47826087
+        rotation: {x: 0.009130631, y: 0.56336033, z: -0.096887395, w: 0.82045996}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.73913044
+        rotation: {x: 0.14608598, y: 0.4866153, z: 0.1631368, w: 0.84572506}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.7826087
+        rotation: {x: -0.24580649, y: -0.035357796, z: 0.10960411, w: 0.96245307}
+        position: {x: 0, y: 0, z: 0}
+      - time: 1
+        rotation: {x: 0.30450025, y: -0.22900176, z: -0.89590037, w: -0.22847387}
+        position: {x: 0, y: 0, z: 0}
+    - bone: Shoulder.L
+      keys:
+      - time: 0.17391305
+        rotation: {x: -0.16487451, y: -0.0015865185, z: -0.34728542, w: 0.92315054}
+        position: {x: 0, y: 0, z: 0}
+    - bone: Hand.IK.L
+      keys:
+      - time: 0
+        rotation: {x: -0.07111772, y: 0.2858306, z: 0.025522297, w: 0.9552974}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.47826087
+        rotation: {x: 0.45228896, y: 0.37664124, z: -0.45917118, w: 0.66538596}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.6304348
+        rotation: {x: 0.5261179, y: -0.23896453, z: 0.36366126, w: 0.7306487}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.73913044
+        rotation: {x: -0.19309667, y: -0.33837667, z: 0.56279117, w: 0.72902817}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.8043478
+        rotation: {x: 0.107315995, y: -0.5357653, z: 0.07127066, w: 0.83448243}
+        position: {x: 0, y: 0, z: 0}
+    - bone: Hip.R
+      keys:
+      - time: 0
+        rotation: {x: 0.09522845, y: -0.19482817, z: -0.064849764, w: 0.9740473}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.17391305
+        rotation: {x: 0.06387195, y: -0.028406184, z: -0.2574399, w: 0.9637625}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.47826087
+        rotation: {x: 0.09457195, y: 0.062186334, z: -0.14502326, w: 0.982933}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.6304348
+        rotation: {x: 0.21837045, y: 0.14645861, z: -0.4253705, w: 0.86598164}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.7173913
+        rotation: {x: 0.24066064, y: 0.0864856, z: -0.4160111, w: 0.8726611}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.73913044
+        rotation: {x: 0.35261852, y: -0.1267902, z: -0.33078918, w: 0.86611956}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.7826087
+        rotation: {x: 0.30247164, y: -0.12685595, z: -0.30988288, w: 0.8924074}
+        position: {x: 0, y: 0, z: 0}
+      - time: 1
+        rotation: {x: 0.11622209, y: -0.18546243, z: -0.21784963, w: 0.95112437}
+        position: {x: 0, y: 0, z: 0}
+    - bone: Leg.R
+      keys:
+      - time: 0.17391305
+        rotation: {x: 0.10740093, y: -0.0010633209, z: 0.11099519, w: 0.98800004}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.47826087
+        rotation: {x: 0.09578961, y: 0.0063451515, z: 0.02970338, w: 0.9949381}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.6304348
+        rotation: {x: -0.20872293, y: -0.059551504, z: 0.054773375, w: 0.9746222}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.7173913
+        rotation: {x: -0.20967393, y: 0.021580601, z: 0.38654417, w: 0.8978613}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.7826087
+        rotation: {x: -0.24822308, y: -0.041161086, z: 0.16424407, w: 0.95378983}
+        position: {x: 0, y: 0, z: 0}
+      - time: 1
+        rotation: {x: 0.057319857, y: 0.101239145, z: 0.32161883, w: 0.93969494}
+        position: {x: 0, y: 0, z: 0}
+    - bone: Foot.IK.R
+      keys:
+      - time: 0
+        rotation: {x: 0.13301271, y: -0.09953983, z: 0.04760247, w: 0.98495394}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.47826087
+        rotation: {x: -0.019075975, y: -0.28149447, z: -0.3094346, w: 0.90810114}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.6304348
+        rotation: {x: -0.63308936, y: -0.09929069, z: -0.20185158, w: 0.7406726}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.7173913
+        rotation: {x: -0.28950548, y: -0.18104485, z: 0.29351124, w: 0.89289486}
+        position: {x: 0, y: 0, z: 0}
+      - time: 0.8043478
+        rotation: {x: -0.107286565, y: 0.0072299005, z: 0.046391476, w: 0.9931192}
+        position: {x: 0, y: 0, z: 0}
+      - time: 1
+        rotation: {x: 0.20591259, y: 0.021257102, z: 0.041863795, w: 0.9774438}
+        position: {x: 0, y: 0, z: 0}
+    - bone: Hip.L
+      keys:
+      - time: 1
+        rotation: {x: 0.027128551, y: 0.09415845, z: -0.14194074, w: 0.9850133}
+        position: {x: 0, y: 0, z: 0}

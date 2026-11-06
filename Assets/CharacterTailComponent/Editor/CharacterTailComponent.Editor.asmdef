@@ -1,0 +1,18 @@
+{
+    "name": "Dorea.CharacterTailComponent.Editor",
+    "rootNamespace": "Dorea.CharacterTailComponent.Editor",
+    "references": [
+        "Dorea.CharacterTailComponent.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
